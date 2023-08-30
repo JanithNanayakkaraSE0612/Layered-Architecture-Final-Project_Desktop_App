@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -15,6 +16,11 @@
    <children>
       <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #02030A;">
          <children>
+            <ScrollPane layoutX="87.0" layoutY="321.0" prefHeight="278.0" prefWidth="759.0" style="-fx-background-color: #02030A;">
+               <content>
+                  <VBox prefHeight="262.0" prefWidth="758.0" style="-fx-background-color: #02030A;" />
+               </content>
+            </ScrollPane>
             <Label layoutX="96.0" layoutY="55.0" prefHeight="53.0" prefWidth="183.0" text="Milk Bar" textFill="WHITE">
                <font>
                   <Font size="24.0" />
@@ -90,6 +96,35 @@
                   <Image url="@../assests/icons8_Search_52px.png" />
                </image>
             </ImageView>
+            <HBox layoutX="78.0" layoutY="268.0" prefHeight="53.0" prefWidth="759.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="43.0" prefWidth="170.0" text="Company Name" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="43.0" prefWidth="133.0" text="Airport" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="43.0" prefWidth="142.0" text="Delivery Date" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="43.0" prefWidth="151.0" text="Amount" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="43.0" prefWidth="151.0" text="Status" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
          </children>
       </Pane>
    </children>
