@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
@@ -8,13 +9,14 @@
 
 <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="901.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane prefHeight="200.0" prefWidth="200.0">
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #02030A;">
          <children>
-            <Label layoutX="58.0" layoutY="37.0" prefHeight="53.0" prefWidth="183.0" text="Milk Bar">
+            <Label layoutX="58.0" layoutY="37.0" prefHeight="53.0" prefWidth="183.0" text="Milk Bar" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Label>
+            <TextField layoutX="658.0" layoutY="64.0" prefHeight="27.0" prefWidth="166.0" promptText="search" style="-fx-background-color: #02030A; -fx-border-color: #B7C3D7; -fx-border-radius: 2em;" />
          </children>
       </Pane>
    </children>
