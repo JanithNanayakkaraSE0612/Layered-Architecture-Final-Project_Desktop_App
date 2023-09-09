@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 public class CustomerDAOImpl implements CustomerDAO {
 
+    //Dao
     @Override
     public ArrayList<Customer> getAll() throws SQLException, ClassNotFoundException {
         String sql = "SELECT * from customer";
